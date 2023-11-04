@@ -648,6 +648,11 @@ h1 {
   margin-right: 20px; /* Add spacing between columns (adjust as needed) */
 }
 
+.column:hover {
+  background-color: #ccc;
+  box-shadow: 0 4px 8px rgb(77, 14, 14); /* Slightly increase the box-shadow */
+  transform: translate(0, -5px); /* Move the column up by 5px */
+}
 /* Remove right margin from the last column to prevent extra spacing */
 .column:last-child {
   margin-right: 0;
